@@ -1,0 +1,55 @@
+    1  sudo apt update
+    2  sudo apt install net-tools
+    3  ifconfig
+    4  sudo apt install ssh
+    5  ps -elf | grep sshd
+    6  sudo apt install vim
+    7  sudo apt update
+    8  sudo apt install vim
+    9  ifconfig
+   10  sudo passwd root
+   11  su
+   12  exit
+   13  cat
+   14  cat/etc/passwd
+   15  useradd -m user1 -s /bin/bash
+   16  ifconfig
+   17  useradd user1
+   18  sudo 
+   19  su
+   20  ls
+   21  su
+   22  sudo useradd -m lili -s /bin/bash
+   23  cd -
+   24  pwd
+   25  cd /home/xionger
+   26  pwd
+   27  history
+   28  sudo passwd root
+   29  su
+   30  sudo userdel -r xionger
+   31  su
+   32  sudo useradd -m xionger -s /bin/bash
+   33  cat /etc/passwd
+   34  ls /home
+   35  sudo passwd xionger
+   36  su xionger
+   37  ls
+   38  cat /etc/passwd
+   39  clear
+   40  useradd -m xiongda -s /bin/bash
+   41  sudo useradd -m xiongda -s /bin/bash
+   42  cat /etc/passwd
+   43  ls /home
+   44  userdel user1
+   45  sudo userdel user1
+   46  cat /etc/passwd
+   47  ls /home
+   48  passwd xiongda
+   49  sudo passwd xiongda
+   50  sudo passwd root
+   51  su
+   52  rm -i try3.txt
+   53  ls
+   54  cd /home/xiongda
+   55  history >day2_鲍召召.txt
